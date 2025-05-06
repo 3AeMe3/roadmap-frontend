@@ -1,0 +1,47 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    border: 1px solid black;
+    max-width: 10.8rem;
+
+}
+.fill-input{
+    position: relative;
+}
+input{
+    padding: 5px 1px;
+}
+.icon-sc i{
+    left: 150px;
+    top: 5px;
+    position: absolute;
+}
+.top
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0px;
+}
+
+.week{
+    display: flex;
+    justify-content: space-around;
+    margin: 4px 5px;
+}
+
+.box{
+    height: 24.5px;
+    width:24.5px;
+    border: 1px solid black;
+    text-align: center;
+    align-content: center;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+}
