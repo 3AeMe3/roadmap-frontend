@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+}
+
+.container {
+    height: 26rem;
+    width: 35rem;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+
+
+}
+
+.formulario {
+    width: 53%;
+}
+
+.formulario form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 40px 35px;
+    height: 100%;
+}
+
+input {
+    padding: 8px;
+    border-radius: 6px;
+    border: 2px solid black;
+    position: relative;
+}
+
+.btn {
+    border: none;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+
+
+.pass {
+    position: relative;
+    width: 100%;
+}
+
+.pass input {
+    width: 100%;
+    padding-right: 2.5rem;
+    /* espacio reservado para el ícono */
+    box-sizing: border-box;
+}
+
+.pass i {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.others {
+    height: 100%;
+    width: 52%;
+    position: relative;
+}
+
+.top {
+    height: 34%;
+    width: 100%;
+    position: relative;
+}
+
+.circle {
+
+    height: 90px;
+    width: 90px;
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid black;
+    left: 80px;
+    top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.circle span {
+
+    font-size: 1.5rem;
+}
+
+.profile h2 {
+    font-weight: lighter;
+    padding-left: 25px;
+    margin-bottom: 10px;
+
+}
+
+.list {
+    height: 50%;
+    width: 80%;
+    margin: auto;
+    border-radius: 15px;
+    background-color: silver;
+}
+.list ul{
+    list-style: none;
+    padding: 30px;
+    height: 71%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.list li {
+    font-size: 13px;
+}
+.work-complete{
+    color: rgba(73, 73, 73, 0.589);
+    text-decoration: line-through;
+
+}
